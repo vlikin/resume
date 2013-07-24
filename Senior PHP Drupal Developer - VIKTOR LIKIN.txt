@@ -1,0 +1,94 @@
+Senior PHP/Drupal Developer - VIKTOR LIKIN(alias)
+
+==SUMARY==
+* I want get an IT related position.
+* I was born in 1985.
+* I am single.
+
+== LINKS THESE HELPS YOU TO LOOK OUT ME BETTER ==
+* Blog - http://vlikin.blogspot.com/
+* Twitter - @vlikin
+* GitHub - https://github.com/vlikin
+* Drupal - https://drupal.org/user/769560
+* Facebook - https://drupal.org/user/769560
+* oDesk - https://www.odesk.com/users/~018e77c0f4e266ae92
+
+== EDUCATION ==
+* National Aviation University - 2003-2008 - Master degree
+
+== LANGUAGES ==
+* English - strong intermediate (written and spoken)
+* Ukrainian - native
+* Russian - fluent
+* French - elementary
+
+== GENERAL EXPERIENCE ==
+* Drupal site administration - knowledge about a bunch of stable contribute modules, profiles. These helps to build almost any solution without any line of code.
+helps to build almost any 
+* Drupal development - front-end(HTML, CSS, JavaScript, SASS, CoffeeScript), back-end.
+* Drupal server administration - server side preparation, deployment, different kinds of migrations.
+* Drupal/PHP support - profiling, tracing, debugging.
+* Drupal community - create issues, apply patches, create patches, overview issues, reroll patches.
+* PHP, Python development from the scratch.
+* Framework(ZendFramework, Symfony2*, Django, Flask*, Bottle*, Web2App) development from the scratch.
+* Server administration - Ubuntu, LAMP, Memcached, APC, Vanish
+* GUI GTK development using Python, PyGTK.
+* Service development under Google App Engine, python(flask, webapp2, jinja2, wtforms, lxml, googleapi)
+* Android mobile development using Java(For my self needs)
+
+
+== PROFESSIONAL SKILLS ==
+* Ubuntu, Debian, Centos
+* HTML, CSS, JavaScript, jQuery, SASS, CoffeeScript, Compass
+* PHP, MySQL, Drupal
+* Python, Django, Google App Engine, Flask, GTK
+* Java, Android
+* C#
+* MySQL, SQLite
+* Varnish, Memcache, APC, Xdebug, Webgrind
+
+== PROFESSIONAL EXPERIENCE ==
+= Senior Drupal/PHP Developer == Skelia = Kyiv Ukraine = August 2012 - August 2013 =
+The company was specialized in sports coaching. I was responsible for supporting of the current state of code, fixing, developing new features. The project was built on Drupal 6 using another contribute modules. There were built a lot of custom modules that represented business processes managing different kinds of sport. I got the practice in cooperating with foreign customers. It made my English level higher. I traveled abroad for business.
+
+Results:
+* The existed code base was modified.
+* Doxygen's best practices were applied using D6+API modules that helped us to keep our code clean and documented.
+* The sub-project "Monitoring" was developed. It contained many both front-end and back-end tasks, used different technologies separating and limiting
+code from overlapping. We started to use SASS, Compass, CoffeeScript technologies. This project contained a lot of dynamic GUI elements with a lot of charts and backgroundn requests.
+* The GUI import wizard was developed. It processed big amount of data. So we used such Drupal technologies as multi-page forms, Drupal cache, Batch API and
+another features.
+
+Continue:
+* Data synchronization between different companies project. It
+uses another web-services to import data to our project to be up to
+date(Guzzle).
+* Own web services these allow another services to work with our
+project. It is also a preparation for mobile version, and different mobile
+applications(Drupal, Webservices, Oauth, Guzzle).
+
+= Middle Drupal/PHP Developer == Adyax = Kyiv = 2012(5 monthes) =
+I had been working as a Drupal developer for 5 monthes. The development process looked as a factory. Everybody had own responsibilities. We used Drupal 6 and the best practices that company had for this time. I was a developer in the team that supported “johnson&johnson” projects. It was a good example of corporate products, many small projects related with each other and based on common platform(Drupal multisiting, Aegir, another common performance technologies).I received the huge experience there: how
+work in a team with separate responsibilities, control results. Responsibilities Drupal back-end developer, Integrating the ApacheSolr abilities
+Technologies: PHP, MySQL, CSS, JavaSCript, PanelsEveryWhere, SCRUM.
+
+= Mixed positions == Freelance, self-employed = 2008 - 2011 =
+* Document authorization process(C#.Net, MS Word, MS Excel, VB scripts)
+Project We had got a lot of reports that were getting ready to print
+Description: 
+We needed the total and descriptive report analysis. The directory-document parser
+was created. It tried to find documents, parsed them, and got useful information
+from. The intermedia data was stored into local database(xml), that converted data
+to excel format that our customer had required before
+
+* X-ray data axiomatization in different hospitals.
+Description:
+The client had the central database of clients and doctors (a simple drupal based site). There were a lot of hospitals(X-ray) around a state. X-Ray station produced client results in xml format. We created a watcher that automatically synchronized data with the central site, and sent the result data The client program was written using C#.Net using FileWatching possibilities. On drupal site we used module services to communicate clients with the server. The protocol xml-rpc was used.
+
+* Simple information sites.
+Joomla sites: http://acop.com.ua; http://dsaua.org
+Drupal sites: http://insurancefla.org; http://consultcneter.org
+
+
+* Black SEO
+Many simple sites these promote another site. The sites are grouped by 5 sites(multisiting) in different shared hostings. To make them simple we used all contribute extensions themes, modules. We tried to not write custom code making it faster(development process) and cheaper. Used technologies: Aegir, multi-siting, Content types, Views, Panels, WebForm, pathauto, token, pagetitle, boost.
