@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\header}[3]{
+	\begin{center} \bfseries \large
+		{#1} \\
+	\end{center}
+	\begin{minipage}{0.3\textwidth}
+		\begin{flushleft}
+			\includegraphics[scale=0.7]{#2}
+		\end{flushleft}
+	\end{minipage}	
+	\begin{minipage}{0.7\textwidth}
+		\begin{flushleft} \large
+			{#3} \\
+		\end{flushleft}
+	\end{minipage}
+}
+
+\begin{document}
+	\header
+		{Senior PHP/Drupal Developer - VIKTOR LIKIN(alias)}
+		{./face.png} 
+		{Hello! My name is Viktor. I am looking for new challenging opportunities. I looking for new position related with development. I am easygoing and open-minded person. I am ready for new hard tasks.\\
+		\includegraphics[scale=0.7]{./smile.png} I am not a good interview writer. You also can help me as the cute IT specialist. Create issues, comments, patches, reroll patches in my resume project on GitHub \url{https://github.com/vlikin/resume}.}
+		
+
+
+	\begin{center}
+ 		SUMMARY \\ \Large
+	\end{center}
+	\section*{Languages}
+\end{document}
