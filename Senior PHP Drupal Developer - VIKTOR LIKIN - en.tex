@@ -2,18 +2,25 @@
 \usepackage{fullpage}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
 
+\definecolor{dark-red}{rgb}{0.4,0.15,0.15}
+\definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+\definecolor{medium-blue}{rgb}{0,0,0.5}
 
-\newenvironment{changemargin}[2]{%
-  \begin{list}{}{%
-    \setlength{\topsep}{0pt}%
-    \setlength{\leftmargin}{#1}%
-    \setlength{\rightmargin}{#2}%
-    \setlength{\listparindent}{\parindent}%
-    \setlength{\itemindent}{\parindent}%
-    \setlength{\parsep}{\parskip}%
-  }%
-  \item[]}{\end{list}
+\hypersetup{
+    colorlinks, linkcolor={dark-red},
+    citecolor={dark-blue}, urlcolor={medium-blue}
+}
+
+\newcommand{\companyheader}[3]{
+	. \\[10mm]
+	\begin{tabularx}{\textwidth}{|X|l|r|}
+		\hline
+			{#1} & \bfseries{#2} & {#3} \\
+		\hline
+	\end{tabularx}
 }
 
 \newcommand{\header}[3]{
@@ -37,12 +44,125 @@
 		{Senior PHP/Drupal Developer - VIKTOR LIKIN(alias)}
 		{./face.png} 
 		{Hello! My name is Viktor. I am looking for new challenging opportunities. I looking for new position related with development. I am easygoing and open-minded person. I am ready for new hard tasks.\\
-		\includegraphics[scale=0.7]{./smile.png} I am not a good interview writer. You also can help me as the cute IT specialist. Create issues, comments, patches, reroll patches in my resume project on GitHub \url{https://github.com/vlikin/resume}.}
+		\includegraphics[scale=0.7]{./smile.png} I am not a good resume writer. You can also help me as the cute IT specialist. Create issues, comments, patches, reroll patches in my \href{https://github.com/vlikin/resume}{resume project on GitHub}.}
 		
+		% CONTACTS %
+		\section*{CONTACTS}
+		\begin{tabular}{l l}
+			Phone & +380636891982 \\
+			E-mail & viktor.likin@gmail.com \\
+			Skype & vlikin \\
+		\end{tabular}
+		% END - CONTACTS %
 
+		% LINKS %
+		\section*{LINKS, THESE HELPS YOU TO LOOK OUT ME BETTER}
+		\begin{tabular}{l l}		
+			Blog & \url{http://vlikin.blogspot.com} \\
+			Twitter & @vlikin \\
+			GitHub & \url{https://github.com/vlikin} \\
+			Drupal & \url{https://drupal.org/user/769560} \\
+			Facebook & \url{https://drupal.org/user/769560} \\
+			oDesk & \url{https://www.odesk.com/users/~018e77c0f4e266ae92} \\
+		\end{tabular}
+		% END - LINKS %
+		
+		% EDUCATION %
+		\section*{EDUCATION}
+		\begin{itemize}
+			\item National Aviation University, 2003-2008, Master degree
+		\end{itemize}
+		% END - EDUCATION %
+		
+		% LANGUAGES %
+		\section*{LANGUAGES}
+		\begin{tabular}{l l}	
+			English & strong intermediate (written and spoken) \\
+			Ukrainian & fluent \\
+			Russian & native \\
+			French & elementary \\
+		\end{tabular}
+		% END - LANGUAGES %
+		
+		% GENERAL EXPERIENCE %
+		\section*{GENERAL EXPERIENCE}
+		\begin{description}
+			\item[Drupal site administration] knowledge about a bunch of stable contribute modules, profiles. These helps to build almost any solution without any line of code.
+			\item[Drupal development]  front-end(HTML, CSS, JavaScript, SASS, CoffeeScript), back-end.
+			\item[Drupal server administration] server side preparation, deployment, different kinds of migrations.
+			\item[Drupal/PHP support] profiling, tracing, debugging.
+			\item[Drupal community] create issues, apply patches, create patches, overview issues, reroll patches.
+			\item PHP, Python development from the scratch.
+			\item Framework(ZendFramework, Symfony2*, Django, Flask*, Bottle*, Web2App) development from the scratch.
+			\item[Server administration]Ubuntu, LAMP, Memcached, APC, Vanish.
+			\item[GUI GTK development] using Python, PyGTK.
+			\item[Service development] under Google App Engine, python(flask, webapp2, jinja2, wtforms, lxml, googleapi).
+			\item[Android mobile development] using Java(For my self needs).
+		\end{description}
+		% END - GENERAL EXPERIENCE %
+		
+		% PROFESSIONAL SKILLS %
+		\section*{PROFESSIONAL SKILLS}
+		\begin{itemize}
+			\item Ubuntu, Debian, Centos
+			\item HTML, CSS, JavaScript, jQuery, SASS, CoffeeScript, Compass
+			\item PHP, MySQL, Drupal
+			\item Python, Django, Google App Engine, Flask, GTK
+			\item Java, Android
+			\item C Sharp
+			\item MySQL, SQLite
+			\item Varnish, Memcache, APC, Xdebug, Webgrind
+		\end{itemize}
+		% END - PROFESSIONAL SKILLS %
+		
+		% PROFESSIONAL EXPERIENCE %
+		% SKELIA %
+		\section*{PROFESSIONAL EXPERIENCE}
+		\companyheader{Senior Drupal/PHP Developer}{Skelia}{August 2012 - August 2013}
+		The company was specialized in sports coaching. I was responsible for supporting of the current state of code, fixing, developing new features. The project was built on Drupal 6 using another contribute modules. There were built a lot of custom modules that represented business processes managing different kinds of sport. I got the practice in cooperating with foreign customers. It made my English level higher. I traveled abroad for business.
+		\\ \textbf{Results} \\
+		\begin{itemize}
+			\item The existed code base was modified.
+			\item Doxygen's best practices were applied using D6+API modules that helped us to keep our code clean and documented.
+	\item The sub-project "Monitoring" was developed. It contained many both front-end and back-end tasks, used different technologies separating and limiting
+code from overlapping. We started to use SASS, Compass, CoffeeScript technologies. This project contained a lot of dynamic GUI elements with a lot of charts and backgroundn requests.
+	\item The GUI import wizard was developed. It processed big amount of data. So we used such Drupal technologies as multi-page forms, Drupal cache, Batch API and
+another features.
+	\item Data synchronization between different companies project. It
+uses another web-services to import data to our project to be up to
+date(Guzzle).
+	\item Own web services these allow another services to work with our
+project. It is also a preparation for mobile version, and different mobile
+applications(Drupal, Webservices, Oauth, Guzzle). \\
+		\end{itemize}
+		% END -SKELIA %
+		
+		% ADYAX % 
+ 		\companyheader{Middle Drupal/PHP Developer}{Adyax}{2012(5 monthes)}
+		I had been working as a Drupal developer for 5 monthes. The development process looked as a factory. Everybody had own responsibilities. We used Drupal 6 and the best practices that company had for this time. I was a developer in the team that supported “johnson and johnson” projects. It was a good example of corporate products, many small projects related with each other and based on common platform(Drupal multisiting, Aegir, another common performance technologies).I received the huge experience there: how
+work in a team with separate responsibilities, control results. Responsibilities Drupal back-end developer, Integrating the ApacheSolr abilities \\
+\textbf{Technologies}: PHP, MySQL, CSS, JavaSCript, PanelsEveryWhere, SCRUM.
+		% END - ADYAX %
+		% MIXED %
+ 		\companyheader{Mixed positions}{self-employed}{2008 - 2011}
+ 		\begin{description}
+ 			\item[Document authorization process(C Sharp.Net, MS Word, MS Excel, VB scripts)] Project We had got a lot of reports that were getting ready to print] We needed the total and descriptive report analysis. The directory-document parser was created. It tried to find documents, parsed them, and got useful information
+from. The intermedia data was stored into local database(xml), that converted data
+to excel format that our customer had required before
+			\item[X-ray data axiomatization in different hospitals] The client had the central database of clients and doctors (a simple drupal based site). There were a lot of hospitals(X-ray) around a state. X-Ray station produced client results in xml format. We created a watcher that automatically synchronized data with the central site, and sent the result data The client program was written using C Sharp.Net using FileWatching possibilities. On drupal site we used module services to communicate clients with the server. The protocol xml-rpc was used.
+			\item[Simple information sites] - \\
+				Joomla sites: http://acop.com.ua; http://dsaua.org \\
+				Drupal sites: http://insurancefla.org; http://consultcneter.org \\
 
-	\begin{center}
- 		SUMMARY \\ \Large
-	\end{center}
-	\section*{Languages}
+			\item[Black SEO] Many simple sites these promote another site. The sites are grouped by 5 sites(multisiting) in different shared hostings. To make them simple we used all contribute extensions themes, modules. We tried to not write custom code making it faster(development process) and cheaper. Used technologies: Aegir, multi-siting, Content types, Views, Panels, WebForm, pathauto, token, pagetitle, boost.
+ 		\end{description}
+		% END - MIXED %		
+		% END - PROFESSIONAL EXPERIENCE %
+		
+		. \\ [10mm]
+		\includegraphics[scale=1]{./smile.png} Thank you that you have looked over my resume till the end!
+		\begin{center}
+			The resume has been compiled on \today .
+		\end{center}
 \end{document}
+

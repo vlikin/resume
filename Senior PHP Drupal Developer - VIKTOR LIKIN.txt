@@ -27,7 +27,6 @@ I am looking for owners of small business without any inter mediators. I am read
 
 == GENERAL EXPERIENCE ==
 * Drupal site administration - knowledge about a bunch of stable contribute modules, profiles. These helps to build almost any solution without any line of code.
-helps to build almost any 
 * Drupal development - front-end(HTML, CSS, JavaScript, SASS, CoffeeScript), back-end.
 * Drupal server administration - server side preparation, deployment, different kinds of migrations.
 * Drupal/PHP support - profiling, tracing, debugging.
